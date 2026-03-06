@@ -1,0 +1,33 @@
+body{
+font-family:'Poppins',sans-serif;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(to right,#1e3c72,#2a5298);
+}
+
+.btn-primary{
+background-color:#ff6b6b;
+border:none;
+border-radius:30px;
+padding:10px 20px;
+transition:0.3s;
+}
+
+.btn-primary:hover{
+background-color:#ff4c4c;
+}
+
+.card{
+border-radius:15px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 25px rgba(0,0,0,0.2);
+}
+html{
+scroll-behavior:smooth;
+}
